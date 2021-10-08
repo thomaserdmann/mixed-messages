@@ -24,6 +24,4 @@ const randomDrink = () => {
 	return drinks[Math.floor(Math.random() * drinks.length)];
 };
 
-console.log(randomMonth());
-console.log(randomDay());
-console.log(randomDrink());
+console.log(`On a ${randomDay()} in ${randomMonth()}, you will drink ${randomDrink()}.`);
